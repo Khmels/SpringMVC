@@ -7,6 +7,7 @@
     <groupId>user-system</groupId>
     <artifactId>userSystem</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <dependencies>
 
@@ -40,8 +41,10 @@
                 <configuration>
                     <scanIntervalSeconds>10</scanIntervalSeconds>
                     <webApp>
-                        <contextPath>/SimpleMavenWebApp</contextPath>
+                        <contextPath>/userSystem</contextPath>
                     </webApp>
+                    <stopKey/>
+                    <stopPort/>
                 </configuration>
 
             </plugin>
