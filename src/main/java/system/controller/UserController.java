@@ -16,8 +16,8 @@ public class  UserController {
     @Autowired
     private UserService userService;
 
-    public @ResponseBody
-    List<User> getAllUsers(){
+    @ResponseBody
+    public List<User> getAllUsers(){
         return  userService.getAllUsers();
     }
 
